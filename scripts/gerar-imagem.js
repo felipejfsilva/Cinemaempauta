@@ -78,11 +78,27 @@ async function gerarImagem({ template, data, slide, output, browser }) {
   // Launch browser (or reuse provided one)
   const ownBrowser = !browser;
   if (ownBrowser) {
-    browser = await puppeteer.launch({
+    const launchOpts = {
       headless: true,
-      executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/root/.cache/ms-playwright/chromium-1194/chrome-linux/chrome',
       args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu'],
-    });
+    };
+    // Use custom executable if set; otherwise let Puppeteer find its own
+    const customExec = process.env.PUPPETEER_EXECUTABLE_PATH;
+    if (customExec) {
+      launchOpts.executablePath = customExec;
+    } else {
+      // Fallback: check common locations
+      const fs_ = require('fs');
+      const candidates = [
+        '/root/.cache/ms-playwright/chromium-1194/chrome-linux/chrome',
+        '/usr/bin/chromium',
+        '/usr/bin/google-chrome-stable',
+      ];
+      for (const c of candidates) {
+        if (fs_.existsSync(c)) { launchOpts.executablePath = c; break; }
+      }
+    }
+    browser = await puppeteer.launch(launchOpts);
   }
 
   try {

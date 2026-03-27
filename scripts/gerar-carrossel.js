@@ -69,11 +69,24 @@ async function main() {
   fs.mkdirSync(postDir, { recursive: true });
 
   // Share a single browser across all slides for speed
-  const browser = await puppeteer.launch({
+  const launchOpts = {
     headless: true,
-    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/root/.cache/ms-playwright/chromium-1194/chrome-linux/chrome',
     args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu'],
-  });
+  };
+  const customExec = process.env.PUPPETEER_EXECUTABLE_PATH;
+  if (customExec) {
+    launchOpts.executablePath = customExec;
+  } else {
+    const candidates = [
+      '/root/.cache/ms-playwright/chromium-1194/chrome-linux/chrome',
+      '/usr/bin/chromium',
+      '/usr/bin/google-chrome-stable',
+    ];
+    for (const c of candidates) {
+      if (fs.existsSync(c)) { launchOpts.executablePath = c; break; }
+    }
+  }
+  const browser = await puppeteer.launch(launchOpts);
 
   try {
     const total = data.slides.length;

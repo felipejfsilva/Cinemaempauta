@@ -1,0 +1,98 @@
+{
+  "profile": "@cinecriticabr",
+  "frequency": "3x/semana (ter/qui/sab)",
+  "timezone": "America/Sao_Paulo",
+  "publish_time": "18:00",
+  "posts": [
+    {
+      "date": "2026-03-31",
+      "day": "ter",
+      "slug": "01-super-xuxa",
+      "dir": "conteudo/posts/01-super-xuxa",
+      "status": "pendente",
+      "content_ready": true,
+      "slides_generated": true
+    },
+    {
+      "date": "2026-04-02",
+      "day": "qui",
+      "slug": "02-agente-secreto",
+      "dir": "conteudo/posts/02-agente-secreto",
+      "status": "pendente",
+      "content_ready": true,
+      "slides_generated": true
+    },
+    {
+      "date": "2026-04-04",
+      "day": "sab",
+      "slug": "03-ainda-estou-aqui",
+      "dir": "conteudo/posts/03-ainda-estou-aqui",
+      "status": "pendente",
+      "content_ready": true,
+      "slides_generated": true
+    },
+    {
+      "date": "2026-04-07",
+      "day": "ter",
+      "slug": "04-bacurau",
+      "dir": "conteudo/posts/04-bacurau",
+      "status": "pendente",
+      "content_ready": false,
+      "slides_generated": false
+    },
+    {
+      "date": "2026-04-09",
+      "day": "qui",
+      "slug": "05-cidade-de-deus",
+      "dir": "conteudo/posts/05-cidade-de-deus",
+      "status": "pendente",
+      "content_ready": false,
+      "slides_generated": false
+    },
+    {
+      "date": "2026-04-11",
+      "day": "sab",
+      "slug": "06-central-station",
+      "dir": "conteudo/posts/06-central-station",
+      "status": "pendente",
+      "content_ready": false,
+      "slides_generated": false
+    },
+    {
+      "date": "2026-04-14",
+      "day": "ter",
+      "slug": "07-bandido-luz-vermelha",
+      "dir": "conteudo/posts/07-bandido-luz-vermelha",
+      "status": "pendente",
+      "content_ready": false,
+      "slides_generated": false
+    },
+    {
+      "date": "2026-04-16",
+      "day": "qui",
+      "slug": "08-terra-em-transe",
+      "dir": "conteudo/posts/08-terra-em-transe",
+      "status": "pendente",
+      "content_ready": false,
+      "slides_generated": false
+    },
+    {
+      "date": "2026-04-18",
+      "day": "sab",
+      "slug": "09-tropa-de-elite",
+      "dir": "conteudo/posts/09-tropa-de-elite",
+      "status": "pendente",
+      "content_ready": false,
+      "slides_generated": false
+    },
+    {
+      "date": "2026-04-21",
+      "day": "ter",
+      "slug": "10-carandiru",
+      "dir": "conteudo/posts/10-carandiru",
+      "status": "pendente",
+      "content_ready": false,
+      "slides_generated": false
+    }
+  ]
+}
