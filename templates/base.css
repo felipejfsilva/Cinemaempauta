@@ -1,0 +1,104 @@
+/* CineCrítica BR — Design Tokens */
+
+/* Fontes via Google Fonts API — compatível com Puppeteer */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Barlow+Condensed:wght@400;600&display=swap');
+
+/*
+  Para uso offline/self-hosted: baixar os .woff2 para ./fonts/ e descomentar os @font-face abaixo.
+  Remover o @import acima ao usar self-hosted.
+
+  @font-face { font-family: 'Playfair Display'; font-weight: 400; src: url('./fonts/playfair-display-regular.woff2') format('woff2'); }
+  @font-face { font-family: 'Playfair Display'; font-weight: 700; src: url('./fonts/playfair-display-bold.woff2') format('woff2'); }
+  @font-face { font-family: 'Playfair Display'; font-weight: 400; font-style: italic; src: url('./fonts/playfair-display-italic.woff2') format('woff2'); }
+  @font-face { font-family: 'Barlow Condensed'; font-weight: 400; src: url('./fonts/barlow-condensed-regular.woff2') format('woff2'); }
+  @font-face { font-family: 'Barlow Condensed'; font-weight: 600; src: url('./fonts/barlow-condensed-semibold.woff2') format('woff2'); }
+*/
+
+:root {
+  --preto: #000000;
+  --branco: #FFFFFF;
+  --ouro: #C9A84C;
+
+  --fonte-titulo: 'Playfair Display', 'Georgia', serif;
+  --fonte-corpo: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+
+  --carrossel-w: 1080px;
+  --carrossel-h: 1350px;
+  --feed-w: 1080px;
+  --feed-h: 1080px;
+  --story-w: 1080px;
+  --story-h: 1920px;
+  --perfil-w: 400px;
+  --perfil-h: 400px;
+
+  --margem: 120px;
+  --margem-lateral: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--preto);
+  color: var(--branco);
+  font-family: var(--fonte-corpo);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.titulo {
+  font-family: var(--fonte-titulo);
+  font-weight: 700;
+  color: var(--ouro);
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.corpo {
+  font-family: var(--fonte-corpo);
+  font-weight: 400;
+  color: var(--branco);
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.destaque {
+  font-family: var(--fonte-titulo);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--ouro);
+  line-height: 1.3;
+}
+
+.linha-ouro {
+  width: 60px;
+  height: 1px;
+  background-color: var(--ouro);
+  opacity: 0.6;
+}
+
+.numero-slide {
+  font-family: var(--fonte-corpo);
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--ouro);
+  opacity: 0.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.logo-container {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  opacity: 0.7;
+}
+
+.logo-container img,
+.logo-container svg {
+  width: 80px;
+  height: auto;
+}

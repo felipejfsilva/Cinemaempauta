@@ -1,0 +1,50 @@
+{
+  "filme": "O Agente Secreto",
+  "ano": "2025",
+  "template": "carrossel",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo_filme": "O Agente Secreto",
+      "ano": "2025",
+      "hook": "Ouvi muita gente sair do cinema reclamando. \"Não entendi.\" \"Parece sem pé nem cabeça.\" \"Faltou um final.\" Entendo. E é exatamente isso que o filme queria."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "02/08",
+      "corpo": "O Agente Secreto não é um thriller com resolução. É um diagnóstico. E diagnósticos não fecham — revelam o que já estava lá antes de você entrar na sala.\n\nKleber Mendonça Filho não filmou os anos de chumbo de Médici. Filmou 1977, o governo Geisel — a ditadura que aprendeu a usar terno. A que falava em abertura democrática enquanto mantinha os porões funcionando. A que deixava o carnaval rolar porque povo que dança não levanta barricada.",
+      "destaque": "A mais perigosa de todas: a que não precisava mais parecer ditadura."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "03/08",
+      "corpo": "O protagonista foge de algo que nunca se materializa completamente. O perigo é real mas difuso. O carnaval acontece do lado de fora enquanto o mundo dele desmorona.\n\nE o espectador que saiu sem entender o final não falhou na leitura — ele demonstrou a tese do filme. Quando a violência está suficientemente naturalizada, você para de reconhecê-la como violência. Passa a experimentá-la como atmosfera. Como ruído de fundo.",
+      "destaque": "Isso tem nome no cinema brasileiro. Chama-se herança."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "04/08",
+      "corpo": "A estética estranha, os enquadramentos que incomodam, o humor que irrompe no lugar errado — tudo isso vem da pornochanchada, gênero que a ditadura tolerou precisamente porque parecia burro. Enquanto o cinema político era censurado, Sganzerla e Bressane infiltravam crítica dentro do erótico permitido.\n\nKleber reativa esse código com consciência total: o que o espectador estrangeiro lê como estranheza autoral, o brasileiro reconhece — mesmo sem saber nomear — como língua materna."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "05/08",
+      "corpo": "Dentro do filme há a perna cabeluda, lenda urbana do Recife dos anos 1970, quando corpos desapareciam e a população transformava o que não podia nomear em mito. O inconsciente coletivo dizendo pelo avesso o que a política proibia dizer de frente.\n\nKleber foi o primeiro brasileiro a vencer Melhor Diretor em Cannes desde Glauber Rocha — com 56 anos de intervalo que correspondem ao período em que o Brasil tentou construir democracia sobre uma ditadura nunca julgada."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "06/08",
+      "corpo": "Glauber gritava. Kleber sussurra. E o sussurro é mais contemporâneo, porque vivemos uma era em que o choque direto perdeu força de tanto ser repetido, e o horror mais eficaz é aquele que parece normal.\n\nQue o Oscar não tenha vindo não surpreende — e tem algo tipicamente brasileiro nisso. O filme mais premiado da temporada europeia voltou de mãos vazias. Reconhecimento tardio, releitura inevitável."
+    },
+    {
+      "tipo": "citacao",
+      "citacao": "O Agente Secreto não tem final claro porque 1977 não teve. Porque 2026 não tem. Você sabe a sensação: algo está errado mas é difícil nomear exatamente o quê. O autoritarismo que aprendeu que a melhor forma de controle é fazer tudo parecer procedimento normal."
+    },
+    {
+      "tipo": "fechamento",
+      "frase": "O mundo que entendeu é o mesmo mundo que reconheceu o espelho. O Brasil que não entendeu é o espelho."
+    }
+  ],
+  "legenda": "Ouvi muita gente sair do cinema reclamando. \"Não entendi.\" \"Parece sem pé nem cabeça.\" \"Faltou um final.\"\n\nEntendo. E é exatamente isso que o filme queria.\n\nKleber Mendonça Filho não filmou a ditadura que você aprendeu a reconhecer. Filmou a que aprendeu a não parecer ditadura. 1977. Governo Geisel. Carnaval do lado de fora. Porões funcionando do lado de dentro.\n\nO público que saiu sem entender não falhou na leitura — demonstrou a tese.\n\nDesliza.\n\n#cinemabrasileiro #oagentsecreto #klebermendonçafilho #cannes2025 #cinecriticabr",
+  "hashtags": ["#cinemabrasileiro", "#oagentsecreto", "#klebermendonçafilho", "#cannes2025", "#cinecriticabr"]
+}

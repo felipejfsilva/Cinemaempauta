@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineCritica BR — Dashboard de Metricas</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Barlow+Condensed:wght@400;600&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #0a0a0a;
+      color: #fff;
+      font-family: 'Barlow Condensed', sans-serif;
+      padding: 40px;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      color: #C9A84C;
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 16px;
+      margin-bottom: 40px;
+      letter-spacing: 0.1em;
+    }
+
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .kpi-card {
+      background: #111;
+      border: 1px solid #222;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .kpi-card .valor {
+      font-size: 48px;
+      font-weight: 600;
+      color: #C9A84C;
+      line-height: 1;
+    }
+
+    .kpi-card .label {
+      font-size: 14px;
+      color: #888;
+      margin-top: 8px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .kpi-card .meta {
+      font-size: 12px;
+      color: #555;
+      margin-top: 4px;
+    }
+
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .chart-card {
+      background: #111;
+      border: 1px solid #222;
+      padding: 24px;
+    }
+
+    .chart-card h3 {
+      font-family: 'Playfair Display', serif;
+      color: #C9A84C;
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+
+    .chart-container {
+      position: relative;
+      height: 250px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th {
+      text-align: left;
+      font-size: 12px;
+      color: #888;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 8px 12px;
+      border-bottom: 1px solid #333;
+    }
+
+    td {
+      padding: 12px;
+      border-bottom: 1px solid #1a1a1a;
+      font-size: 14px;
+    }
+
+    .status-publicado { color: #4CAF50; }
+    .status-pronto { color: #C9A84C; }
+    .status-rascunho { color: #666; }
+
+    .input-section {
+      background: #111;
+      border: 1px solid #222;
+      padding: 24px;
+      margin-bottom: 40px;
+    }
+
+    .input-section h3 {
+      font-family: 'Playfair Display', serif;
+      color: #C9A84C;
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 2fr repeat(5, 1fr) auto;
+      gap: 8px;
+      margin-bottom: 8px;
+      align-items: center;
+    }
+
+    input, select {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      color: #fff;
+      padding: 8px 12px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 14px;
+    }
+
+    button {
+      background: #C9A84C;
+      color: #000;
+      border: none;
+      padding: 8px 16px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+      letter-spacing: 0.05em;
+    }
+
+    button:hover { opacity: 0.8; }
+  </style>
+</head>
+<body>
+
+  <h1>CineCritica BR</h1>
+  <p class="subtitle">DASHBOARD DE METRICAS — INSTAGRAM</p>
+
+  <!-- KPIs -->
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <div class="valor" id="kpi-seguidores">0</div>
+      <div class="label">Seguidores</div>
+      <div class="meta">Meta semana 8: 1.000</div>
+    </div>
+    <div class="kpi-card">
+      <div class="valor" id="kpi-salvamentos">0%</div>
+      <div class="label">Taxa Salvamentos</div>
+      <div class="meta">Meta: >3% do alcance</div>
+    </div>
+    <div class="kpi-card">
+      <div class="valor" id="kpi-compartilhamentos">0%</div>
+      <div class="label">Taxa Compartilhamento</div>
+      <div class="meta">Indicador de viralidade</div>
+    </div>
+    <div class="kpi-card">
+      <div class="valor" id="kpi-posts">0</div>
+      <div class="label">Posts Publicados</div>
+      <div class="meta">Meta pre-pago: 12</div>
+    </div>
+  </div>
+
+  <!-- Charts -->
+  <div class="charts-grid">
+    <div class="chart-card">
+      <h3>Crescimento de Seguidores</h3>
+      <div class="chart-container">
+        <canvas id="chart-seguidores"></canvas>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h3>Salvamentos por Post</h3>
+      <div class="chart-container">
+        <canvas id="chart-salvamentos"></canvas>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h3>Alcance por Post</h3>
+      <div class="chart-container">
+        <canvas id="chart-alcance"></canvas>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h3>Compartilhamentos por Post</h3>
+      <div class="chart-container">
+        <canvas id="chart-compartilhamentos"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Data Input -->
+  <div class="input-section">
+    <h3>Adicionar Dados de Post</h3>
+    <div class="form-row" style="color: #888; font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;">
+      <span>Post</span>
+      <span>Alcance</span>
+      <span>Salvamentos</span>
+      <span>Compartilh.</span>
+      <span>Novos Seg.</span>
+      <span>Curtidas</span>
+      <span></span>
+    </div>
+    <div class="form-row">
+      <input type="text" id="input-post" placeholder="Ex: 01-super-xuxa">
+      <input type="number" id="input-alcance" placeholder="0">
+      <input type="number" id="input-salvamentos" placeholder="0">
+      <input type="number" id="input-compartilhamentos" placeholder="0">
+      <input type="number" id="input-seguidores" placeholder="0">
+      <input type="number" id="input-curtidas" placeholder="0">
+      <button onclick="adicionarDados()">ADICIONAR</button>
+    </div>
+  </div>
+
+  <!-- Post Performance Table -->
+  <div class="chart-card">
+    <h3>Performance por Post</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Post</th>
+          <th>Alcance</th>
+          <th>Salvamentos</th>
+          <th>Taxa Salv.</th>
+          <th>Compartilh.</th>
+          <th>Novos Seg.</th>
+          <th>Curtidas</th>
+        </tr>
+      </thead>
+      <tbody id="tabela-posts">
+        <tr>
+          <td colspan="7" style="color: #555; text-align: center;">Nenhum dado registrado</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    const OURO = '#C9A84C';
+    const BRANCO = '#FFFFFF';
+    const CINZA = '#666';
+
+    let dados = JSON.parse(localStorage.getItem('cinecritica-dados') || '[]');
+
+    const chartDefaults = {
+      color: BRANCO,
+      borderColor: '#333',
+      font: { family: "'Barlow Condensed', sans-serif" }
+    };
+
+    Chart.defaults.color = BRANCO;
+    Chart.defaults.font.family = "'Barlow Condensed', sans-serif";
+
+    const chartSeguidores = new Chart(document.getElementById('chart-seguidores'), {
+      type: 'line',
+      data: {
+        labels: [],
+        datasets: [{
+          label: 'Seguidores',
+          data: [],
+          borderColor: OURO,
+          backgroundColor: 'rgba(201, 168, 76, 0.1)',
+          fill: true,
+          tension: 0.3
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: { grid: { color: '#1a1a1a' } },
+          y: { grid: { color: '#1a1a1a' }, beginAtZero: true }
+        },
+        plugins: { legend: { display: false } }
+      }
+    });
+
+    const chartSalvamentos = new Chart(document.getElementById('chart-salvamentos'), {
+      type: 'bar',
+      data: {
+        labels: [],
+        datasets: [{
+          label: 'Salvamentos',
+          data: [],
+          backgroundColor: OURO,
+          borderRadius: 2
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: { grid: { color: '#1a1a1a' } },
+          y: { grid: { color: '#1a1a1a' }, beginAtZero: true }
+        },
+        plugins: { legend: { display: false } }
+      }
+    });
+
+    const chartAlcance = new Chart(document.getElementById('chart-alcance'), {
+      type: 'bar',
+      data: {
+        labels: [],
+        datasets: [{
+          label: 'Alcance',
+          data: [],
+          backgroundColor: CINZA,
+          borderRadius: 2
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: { grid: { color: '#1a1a1a' } },
+          y: { grid: { color: '#1a1a1a' }, beginAtZero: true }
+        },
+        plugins: { legend: { display: false } }
+      }
+    });
+
+    const chartCompartilhamentos = new Chart(document.getElementById('chart-compartilhamentos'), {
+      type: 'bar',
+      data: {
+        labels: [],
+        datasets: [{
+          label: 'Compartilhamentos',
+          data: [],
+          backgroundColor: '#4CAF50',
+          borderRadius: 2
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: { grid: { color: '#1a1a1a' } },
+          y: { grid: { color: '#1a1a1a' }, beginAtZero: true }
+        },
+        plugins: { legend: { display: false } }
+      }
+    });
+
+    function atualizarDashboard() {
+      const labels = dados.map(d => d.post);
+      const salvamentos = dados.map(d => d.salvamentos);
+      const alcance = dados.map(d => d.alcance);
+      const compartilhamentos = dados.map(d => d.compartilhamentos);
+
+      let seguidoresAcumulado = 0;
+      const seguidoresData = dados.map(d => {
+        seguidoresAcumulado += d.novosSeguidores;
+        return seguidoresAcumulado;
+      });
+
+      chartSeguidores.data.labels = labels;
+      chartSeguidores.data.datasets[0].data = seguidoresData;
+      chartSeguidores.update();
+
+      chartSalvamentos.data.labels = labels;
+      chartSalvamentos.data.datasets[0].data = salvamentos;
+      chartSalvamentos.update();
+
+      chartAlcance.data.labels = labels;
+      chartAlcance.data.datasets[0].data = alcance;
+      chartAlcance.update();
+
+      chartCompartilhamentos.data.labels = labels;
+      chartCompartilhamentos.data.datasets[0].data = compartilhamentos;
+      chartCompartilhamentos.update();
+
+      // KPIs
+      document.getElementById('kpi-seguidores').textContent = seguidoresAcumulado;
+      document.getElementById('kpi-posts').textContent = dados.length;
+
+      const totalAlcance = alcance.reduce((a, b) => a + b, 0);
+      const totalSalvamentos = salvamentos.reduce((a, b) => a + b, 0);
+      const totalCompartilhamentos = compartilhamentos.reduce((a, b) => a + b, 0);
+
+      const taxaSalv = totalAlcance > 0 ? ((totalSalvamentos / totalAlcance) * 100).toFixed(1) : '0';
+      const taxaComp = totalAlcance > 0 ? ((totalCompartilhamentos / totalAlcance) * 100).toFixed(1) : '0';
+
+      document.getElementById('kpi-salvamentos').textContent = taxaSalv + '%';
+      document.getElementById('kpi-compartilhamentos').textContent = taxaComp + '%';
+
+      // Table
+      const tbody = document.getElementById('tabela-posts');
+      if (dados.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" style="color: #555; text-align: center;">Nenhum dado registrado</td></tr>';
+      } else {
+        tbody.innerHTML = dados.map(d => {
+          const taxa = d.alcance > 0 ? ((d.salvamentos / d.alcance) * 100).toFixed(1) + '%' : '—';
+          const taxaClass = d.alcance > 0 && (d.salvamentos / d.alcance) >= 0.03 ? 'color: #4CAF50' : '';
+          return `<tr>
+            <td>${d.post}</td>
+            <td>${d.alcance.toLocaleString()}</td>
+            <td>${d.salvamentos}</td>
+            <td style="${taxaClass}">${taxa}</td>
+            <td>${d.compartilhamentos}</td>
+            <td>${d.novosSeguidores}</td>
+            <td>${d.curtidas}</td>
+          </tr>`;
+        }).join('');
+      }
+    }
+
+    function adicionarDados() {
+      const post = document.getElementById('input-post').value.trim();
+      if (!post) return;
+
+      dados.push({
+        post: post,
+        alcance: parseInt(document.getElementById('input-alcance').value) || 0,
+        salvamentos: parseInt(document.getElementById('input-salvamentos').value) || 0,
+        compartilhamentos: parseInt(document.getElementById('input-compartilhamentos').value) || 0,
+        novosSeguidores: parseInt(document.getElementById('input-seguidores').value) || 0,
+        curtidas: parseInt(document.getElementById('input-curtidas').value) || 0
+      });
+
+      localStorage.setItem('cinecritica-dados', JSON.stringify(dados));
+      atualizarDashboard();
+
+      // Clear inputs
+      document.getElementById('input-post').value = '';
+      document.getElementById('input-alcance').value = '';
+      document.getElementById('input-salvamentos').value = '';
+      document.getElementById('input-compartilhamentos').value = '';
+      document.getElementById('input-seguidores').value = '';
+      document.getElementById('input-curtidas').value = '';
+    }
+
+    atualizarDashboard();
+  </script>
+</body>
+</html>

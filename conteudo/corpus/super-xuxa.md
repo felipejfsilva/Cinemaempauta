@@ -1,0 +1,27 @@
+# Super Xuxa contra o Baixo Astral (1988)
+
+## A industria que o Brasil nao soube nomear
+
+Hoje, 27 de marco de 2026, aniversario de 63 anos de Xuxa Meneghel, o Canal Brasil exibe pela primeira vez em 4K um filme que quase desapareceu para sempre. O primeiro rolo do negativo original havia sumido do Arquivo Nacional. Um cineasta do interior de Minas Gerais rastreou colecionadores pelo pais ate encontrar uma copia em 35mm no Rio Grande do Norte. O filme foi salvo por um fa. Nao pelo Estado. Nao pela industria. Por um fa com obsessao e tempo. Isso ja diz tudo sobre como o Brasil tratou o maior fenomeno de entretenimento que ja produziu.
+
+Xuxa Meneghel e a recordista absoluta de publico de toda a historia do cinema brasileiro. 37 milhoes de pessoas. Nenhum diretor, nenhuma franquia, nenhuma obra do cinema nacional chegou perto. E durante decadas a critica tratou essa producao como entretenimento menor — produto descartavel, coisa de crianca, nada que merecesse arquivo, analise ou preservacao cuidadosa. O primeiro rolo de Super Xuxa contra o Baixo Astral desapareceu dentro do Estado sem que ninguem considerasse isso uma perda cultural urgente. E um erro de leitura que diz mais sobre o critico do que sobre o objeto.
+
+Super Xuxa contra o Baixo Astral, lancado em junho de 1988, foi filmado num momento de inflexao historica precisa: a ditadura havia terminado oficialmente em 1985, a Constituicao havia sido promulgada naquele mesmo ano, e o Brasil ensaiava, nervosamente, ser um pais livre. Xuxa nao era apenas a estrela do filme. Era a maior operacao cultural do pais naquele momento — programa diario de televisao, discos, produtos licenciados, Paquitas, turnes, contratos internacionais. Uma industria vertical e integrada construida sobre a imagem de uma mulher loira, solar, fisicamente impossivel para os padroes medios brasileiros, que falava diretamente com criancas num pais onde crianca historicamente nao era tratada como sujeito de cultura.
+
+Essa contradicao e o coracao do fenomeno — e a critica nunca a elaborou adequadamente.
+
+Xuxa representava simultaneamente a abertura e o fechamento. A abertura: pela primeira vez, uma figura midiatica colocava a crianca no centro, criava um vocabulario emocional inteiramente dedicado a infancia, tratava o publico mais jovem como participante e nao como receptor passivo. O programa era interativo, fisico, barulhento — o oposto do entretenimento disciplinar que regimes autoritarios favorecem. No Brasil que saia da ditadura, isso tinha peso politico real. A alegria como ato publico nao e trivial num pais que passou 21 anos sendo governado pelo controle dos corpos e dos afetos.
+
+O fechamento: o padrao estetico que Xuxa encarnava — branca, loira, europeia num pais majoritariamente negro — produzia uma exclusao silenciosa que so decadas depois o debate publico conseguiu nomear. A industria que ela construiu era poderosa e excludente ao mesmo tempo, exatamente como o Brasil da redemocratizacao: formalmente aberta, estruturalmente seletiva. A Constituicao de 1988 garantia direitos que a realidade social negava. Xuxa garantia alegria num formato que a maioria das criancas brasileiras nao se via representada.
+
+Mas o que torna Super Xuxa contra o Baixo Astral analiticamente interessante nao e a contradicao em si — e o que ela produziu como cinema. Anna Penido dirigiu uma superproducao para os padroes nacionais: efeitos praticos de perspectiva forcada, cenografia densa, fantasia fisica construida antes do CGI existir como opcao. Lancado em 93 cinemas — recorde de distribuicao para um filme brasileiro em 1988 — levou 2,8 milhoes de pessoas ao cinema num pais onde ir ao cinema ainda era evento. Nao era produto pasteurizado: era risco orcamentario real, aposta industrial seria, cinema popular com ambicao de linguagem. O avo do produtor deu a casa em garantia para assinar o contrato com Xuxa. Isso nao e anedota — e a medida do quanto a industria acreditava que o fenomeno valia.
+
+E valia. O que a critica chamava de entretenimento menor era, na pratica, a unica industria cinematografica sustentavel que o Brasil havia construido. Enquanto o cinema de autor dependia de editais, leis de incentivo e festivais europeus para existir, a maquina Xuxa se autofinanciava, distribuia em escala nacional, e formava audiencia de cinema numa geracao inteira. Nao e exagero dizer que parte significativa dos brasileiros entre 35 e 50 anos foi ao cinema pela primeira vez por causa dela. Isso tem consequencia cultural de longo prazo que nenhum premio em Cannes produz sozinho.
+
+A restauracao em 4K — viabilizada pelo Canal Brasil, pela Dreamvision, pela Mapa Filmes, e pelo esforco de Diego Alexandre — e o reconhecimento tardio de que bilheteria e memoria, que popularidade e arquivo, que o que uma nacao consome em massa e tao revelador do que ela e quanto o que ela premia em festivais. O rolo que o Estado perdeu era o prologo do filme — as cenas em que o Brasil e apresentado como lugar que pode ser transformado pela alegria coletiva. A parte que desapareceu era exatamente a tese.
+
+Hoje a noite ela volta, em resolucao que nunca teve, no aniversario da mulher que construiu a maior industria de entretenimento infantil que este pais ja viu — e que o Brasil insistiu em nao levar a serio enquanto ela existia.
+
+Talvez porque levar a serio significasse admitir que entretenimento popular e politica. E que a crianca que dancava na frente da televisao em 1988 estava sendo formada por algo que ninguem chamou pelo nome correto na epoca.
+
+Poder.

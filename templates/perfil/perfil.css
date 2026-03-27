@@ -1,0 +1,39 @@
+/* CineCrítica BR — Foto de Perfil (400x400) */
+
+.foto-perfil {
+  width: 400px;
+  height: 400px;
+  background-color: var(--preto);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.foto-perfil .monograma {
+  font-family: var(--fonte-titulo);
+  font-weight: 700;
+  font-size: 120px;
+  color: var(--ouro);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.foto-perfil .linha {
+  width: 80px;
+  height: 1px;
+  background-color: var(--ouro);
+  opacity: 0.5;
+}
+
+.foto-perfil .subtexto {
+  font-family: var(--fonte-corpo);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--ouro);
+  opacity: 0.7;
+  letter-spacing: 0.3em;
+}

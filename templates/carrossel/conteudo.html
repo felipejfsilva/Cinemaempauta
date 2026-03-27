@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../base.css">
+  <link rel="stylesheet" href="carrossel.css">
+</head>
+<body>
+  <div class="slide slide-conteudo">
+
+    <span class="numero-slide">{{numero}}</span>
+
+    <p class="corpo">{{corpo}}</p>
+
+    {{#destaque}}
+    <p class="destaque">{{destaque}}</p>
+    {{/destaque}}
+
+    <div class="logo-container">
+      <svg viewBox="0 0 200 60" width="80" height="24">
+        <text x="100" y="28" font-family="'Playfair Display', serif" font-weight="700" font-size="22" fill="#C9A84C" text-anchor="middle" letter-spacing="2">CINECRÍTICA</text>
+        <line x1="30" y1="36" x2="170" y2="36" stroke="#C9A84C" stroke-width="0.5" opacity="0.6"/>
+        <text x="100" y="50" font-family="'Barlow Condensed', sans-serif" font-weight="400" font-size="14" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.8">BR</text>
+      </svg>
+    </div>
+
+  </div>
+</body>
+</html>

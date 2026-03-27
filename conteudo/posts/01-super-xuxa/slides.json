@@ -1,0 +1,50 @@
+{
+  "filme": "Super Xuxa contra o Baixo Astral",
+  "ano": "1988",
+  "template": "carrossel",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo_filme": "Super Xuxa contra o Baixo Astral",
+      "ano": "1988",
+      "hook": "Xuxa completa 63 anos no mesmo dia em que o Canal Brasil estreia a restauração 4K deste filme. Ninguém combinou nada. E é justamente por isso que vale começar por aqui."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "02/08",
+      "corpo": "O primeiro rolo do negativo original havia sumido do Arquivo Nacional. Um cineasta do interior de Minas rastreou colecionadores pelo país até encontrar uma cópia em 35mm no Rio Grande do Norte. O filme foi salvo por um fã. Não pelo Estado. Não pela indústria.\n\n37 milhões de espectadores. Recordista absoluta do cinema brasileiro. E o negativo desapareceu sem que ninguém considerasse isso urgente.",
+      "destaque": "O erro de leitura diz mais sobre o crítico do que sobre o objeto."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "03/08",
+      "corpo": "1988. A ditadura terminou oficialmente em 1985. A Constituição foi promulgada naquele ano. O Brasil ensaiava, nervosamente, ser um país livre. Xuxa não era a estrela de um filme — era a maior operação cultural do país: TV diária, discos, Paquitas, contratos internacionais.\n\nUma indústria vertical construída sobre a imagem de uma mulher que falava diretamente com crianças num país onde criança não era tratada como sujeito de cultura."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "04/08",
+      "corpo": "Xuxa era abertura e fechamento ao mesmo tempo. Abertura: pela primeira vez, a criança no centro, vocabulário emocional dedicado à infância, público jovem como participante. A alegria como ato público num país que passou 21 anos controlando corpos e afetos.\n\nFechamento: branca, loira, europeia num país majoritariamente negro. A indústria era poderosa e excludente — exatamente como o Brasil da redemocratização. Formalmente aberta, estruturalmente seletiva."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "05/08",
+      "corpo": "Anna Penido dirigiu uma superprodução real: efeitos práticos de perspectiva forçada, cenografia densa, fantasia física antes do CGI existir. 93 cinemas — recorde de distribuição em 1988. 2,8 milhões de espectadores. O avô do produtor deu a casa em garantia para assinar o contrato.",
+      "destaque": "Isso não é anedota. É a medida do risco industrial — cinema popular com ambição de linguagem."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "06/08",
+      "corpo": "O que a crítica chamava de entretenimento menor era a única indústria cinematográfica sustentável que o Brasil já teve. O cinema de autor dependia de editais, leis de incentivo e festivais europeus. A máquina Xuxa se autofinanciava, distribuía em escala nacional, e formava audiência.\n\nParte significativa dos brasileiros entre 35 e 50 anos foi ao cinema pela primeira vez por causa dela. Consequência cultural de longo prazo que nenhum prêmio em Cannes produz sozinho."
+    },
+    {
+      "tipo": "citacao",
+      "citacao": "O rolo que o Estado perdeu era o prólogo — as cenas em que o Brasil é apresentado como lugar que pode ser transformado pela alegria coletiva. A parte que desapareceu era exatamente a tese."
+    },
+    {
+      "tipo": "fechamento",
+      "frase": "Talvez porque levar a sério significasse admitir que entretenimento popular é política. E que a criança que dançava na frente da televisão em 1988 estava sendo formada por algo que ninguém chamou pelo nome correto na época.\n\nPoder."
+    }
+  ],
+  "legenda": "Xuxa completa 63 anos hoje. O Canal Brasil estreia a restauração 4K de Super Xuxa contra o Baixo Astral na mesma data. Ninguém combinou nada — e esse alinhamento acidental diz mais sobre o filme do que qualquer efeméride planejada.\n\nO primeiro rolo do negativo original havia sumido do Arquivo Nacional. Foi salvo por um fã com obsessão e tempo. Não pelo Estado. Não pela indústria.\n\n37 milhões de espectadores. Recordista absoluta do cinema brasileiro. E durante décadas, a crítica tratou isso como entretenimento menor.\n\nO que acontece quando a maior indústria cinematográfica que um país já construiu é a mesma que ele se recusou a levar a sério?\n\nDesliza.\n\n#cinemabrasileiro #xuxa #cinecriticabr",
+  "hashtags": ["#cinemabrasileiro", "#xuxa", "#cinecriticabr"]
+}

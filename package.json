@@ -1,0 +1,13 @@
+{
+  "name": "cinecritica-br",
+  "version": "1.0.0",
+  "description": "CineCrítica BR — Sistema editorial para perfil de Instagram sobre cinema brasileiro",
+  "scripts": {
+    "gerar-imagem": "node scripts/gerar-imagem.js",
+    "gerar-carrossel": "node scripts/gerar-carrossel.js"
+  },
+  "dependencies": {
+    "mustache": "^4.2.0",
+    "puppeteer": "^22.0.0"
+  }
+}

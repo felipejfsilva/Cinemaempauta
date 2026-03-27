@@ -1,0 +1,6 @@
+node_modules/
+assets/export/*.png
+assets/export/**/*.png
+.env
+.DS_Store
+*.log

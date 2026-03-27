@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <rect width="200" height="60" fill="none"/>
+  <text x="100" y="28" font-family="'Playfair Display', serif" font-weight="700" font-size="22" fill="#C9A84C" text-anchor="middle" letter-spacing="2">CINECRÍTICA</text>
+  <line x1="30" y1="36" x2="170" y2="36" stroke="#C9A84C" stroke-width="0.5" opacity="0.6"/>
+  <text x="100" y="50" font-family="'Barlow Condensed', sans-serif" font-weight="400" font-size="14" fill="#C9A84C" text-anchor="middle" letter-spacing="4" opacity="0.8">BR</text>
+</svg>
