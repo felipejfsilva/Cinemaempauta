@@ -1,6 +1,6 @@
 # Calendario Editorial — CineCritica BR
 
-**Perfil:** CineCritica BR (@cinecriticabr)
+**Perfil:** CineCritica BR (@cinecriticabrasil)
 **Bio:** "Cinema brasileiro. Critica. Sem neutralidade."
 **Cadencia:** 5x/semana
 **Periodo:** 8 semanas (ciclo 1)

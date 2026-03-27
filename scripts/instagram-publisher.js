@@ -372,7 +372,7 @@ async function main() {
     const postId = await publishCarousel(containerIds, caption);
     console.log(`\n✓ PUBLICADO com sucesso!`);
     console.log(`  Post ID: ${postId}`);
-    console.log(`  Perfil: instagram.com/cinecriticabr`);
+    console.log(`  Perfil: instagram.com/cinecriticabrasil`);
 
   } catch (err) {
     console.error(`\nErro: ${err.message}`);

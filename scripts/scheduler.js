@@ -53,7 +53,7 @@ function initSchedule() {
   ];
 
   const schedule = {
-    profile: '@cinecriticabr',
+    profile: '@cinecriticabrasil',
     frequency: '3x/semana (ter/qui/sab)',
     timezone: 'America/Sao_Paulo',
     publish_time: '18:00',

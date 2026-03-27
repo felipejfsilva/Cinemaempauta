@@ -8,4 +8,4 @@ Bacurau não é sobre uma vila que sobrevive. É sobre um país que só existe e
 
 Desliza.
 
-#cinemabrasileiro #bacurau #cinecriticabr
+#cinemabrasileiro #bacurau #cinecriticabrasil

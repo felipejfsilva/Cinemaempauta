@@ -8,4 +8,4 @@ O filme que mudou o cinema brasileiro precisa ser relido — pelo que inventou e
 
 Desliza.
 
-#cinemabrasileiro #cidadededeus #cinecriticabr
+#cinemabrasileiro #cidadededeus #cinecriticabrasil

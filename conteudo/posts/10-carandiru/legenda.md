@@ -10,4 +10,4 @@ Carandiru é o filme que conecta.
 
 Desliza.
 
-#cinemabrasileiro #carandiru #cinecriticabr
+#cinemabrasileiro #carandiru #cinecriticabrasil

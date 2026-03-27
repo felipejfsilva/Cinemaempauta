@@ -14,4 +14,4 @@ O Brasil não saiu do transe. Aprendeu a chamá-lo de democracia.
 
 Desliza.
 
-#cinemabrasileiro #terraemtranse #glauberrocha #cinemanovo #cannes #cinecriticabr
+#cinemabrasileiro #terraemtranse #glauberrocha #cinemanovo #cannes #cinecriticabrasil

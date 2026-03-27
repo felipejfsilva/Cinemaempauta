@@ -10,4 +10,4 @@ O que acontece quando a maior industria cinematografica que um pais ja construiu
 
 Desliza.
 
-#cinemabrasileiro #xuxa #cinecriticabr
+#cinemabrasileiro #xuxa #cinecriticabrasil

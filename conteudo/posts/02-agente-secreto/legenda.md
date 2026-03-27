@@ -12,4 +12,4 @@ O público que saiu sem entender não falhou na leitura — demonstrou a tese. Q
 
 Desliza.
 
-#cinemabrasileiro #oagentsecreto #klebermendonçafilho #cannes2025 #cinecriticabr
+#cinemabrasileiro #oagentsecreto #klebermendonçafilho #cannes2025 #cinecriticabrasil

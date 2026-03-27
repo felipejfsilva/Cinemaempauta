@@ -2,7 +2,7 @@
 
 **Cinema brasileiro. Critica. Sem neutralidade.**
 
-Handle: `@cinecriticabr`
+Handle: `@cinecriticabrasil`
 
 ---
 

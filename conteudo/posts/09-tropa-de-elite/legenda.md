@@ -8,4 +8,4 @@ Em 2026, os capitães saíram da tela e entraram na política real. Tropa de Eli
 
 Desliza.
 
-#cinemabrasileiro #tropadeelite #cinecriticabr
+#cinemabrasileiro #tropadeelite #cinecriticabrasil

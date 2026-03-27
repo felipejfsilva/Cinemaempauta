@@ -6,4 +6,4 @@ Central do Brasil é o filme que quase quebrou a barreira. Ainda Estou Aqui é o
 
 Desliza.
 
-#cinemabrasileiro #centraldoBrasil #fernandamontenegro #cinecriticabr
+#cinemabrasileiro #centraldoBrasil #fernandamontenegro #cinecriticabrasil

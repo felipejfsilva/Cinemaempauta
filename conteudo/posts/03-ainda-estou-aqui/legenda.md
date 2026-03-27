@@ -12,4 +12,4 @@ O nó tem nome. Chama-se impunidade.
 
 Desliza.
 
-#cinemabrasileiro #aindaestouaqui #fernandatorres #waltersalles #oscar2025 #cinecriticabr
+#cinemabrasileiro #aindaestouaqui #fernandatorres #waltersalles #oscar2025 #cinecriticabrasil

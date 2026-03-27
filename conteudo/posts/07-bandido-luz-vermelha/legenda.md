@@ -14,4 +14,4 @@ A censura não temia o que não compreendia. Esse foi o erro dela — e a arma d
 
 Desliza.
 
-#cinemabrasileiro #obandidodaluzvermelha #rogeriosganzerla #cinemamarginal #bocadolixo #cinecriticabr
+#cinemabrasileiro #obandidodaluzvermelha #rogeriosganzerla #cinemamarginal #bocadolixo #cinecriticabrasil
