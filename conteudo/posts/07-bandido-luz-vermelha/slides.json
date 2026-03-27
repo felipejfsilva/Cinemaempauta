@@ -1,0 +1,56 @@
+{
+  "filme": "O Bandido da Luz Vermelha",
+  "ano": 1968,
+  "diretor": "Rogério Sganzerla",
+  "template": "carrossel",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo_filme": "O Bandido da Luz Vermelha",
+      "ano": "1968",
+      "subtitulo": "",
+      "hook": "Um filme de 1968 que parece feito em 2026. Se isso incomoda, é porque o Brasil mudou menos do que gosta de acreditar. Sganzerla tinha 22 anos e três semanas. Com isso, fez o filme mais perigoso da ditadura — perigoso porque ninguém levou a sério."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "02",
+      "corpo": "Sganzerla tinha 22 anos. Filmou em três semanas na Boca do Lixo paulistana. O Cinema Marginal não nasceu como manifesto nem como escola — nasceu como necessidade. Quando o Cinema Novo de Glauber ficou sério demais para o golpe digerir, quando a seriedade virou alvo, a marginalidade se tornou a única linguagem que a censura não sabia ler.",
+      "destaque": "O lixo como gramática não era limitação. Era estratégia de sobrevivência."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "03",
+      "corpo": "O Bandido não é herói. Não é anti-herói. É sintoma. Um criminoso da zona da Luz que o rádio transforma em mito — a narração radiofônica como máquina de produzir espetáculo, a mídia de massa fabricando o vilão que a ditadura precisava para distrair. Enquanto o país perseguia comunistas reais, o rádio perseguia um ladrão inventado.",
+      "destaque": "A violência como entretenimento para cobrir a violência como política de Estado."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "04",
+      "corpo": "A estética do lixo: colagem, paródia, erotismo, deboche, fragmento. Tudo o que a censura classificava como inofensivo era exatamente o que passava. A ditadura censurava a seriedade — o discurso articulado, o manifesto, a tese explícita. E o Bandido era sério demais para parecer sério. A pornochanchada política: o corpo na tela como cortina de fumaça para o que o corpo dizia sobre o poder.",
+      "destaque": "O erótico como cavalo de Troia da crítica."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "05",
+      "corpo": "A Boca do Lixo como Hollywood invertida: produção industrial de filmes baratos que sustentavam o circuito exibidor brasileiro. O mercado que o Cinema Novo desprezava por vulgar era o mesmo que mantinha as salas abertas. A contradição que o cinema brasileiro nunca resolveu — e que Sganzerla transformou em método. Fazer dentro da indústria, mas de um jeito que a máquina não entende o que está engolindo."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "06",
+      "corpo": "Sganzerla contra Glauber: a ruptura dentro da ruptura. O Cinema Marginal contra o Cinema Novo. Não era direita contra esquerda — era a esquerda se dividindo sobre como falar com um povo que a ditadura impedia de ouvir. Glauber queria educar. Sganzerla queria contaminar. Dois cinemas gritando um para o outro enquanto o país inteiro era amordaçado.",
+      "destaque": "A disputa estética mais produtiva — e mais dolorosa — da história do cinema brasileiro."
+    },
+    {
+      "tipo": "citacao",
+      "citacao_texto": "A herança direta: de Sganzerla a Kleber Mendonça Filho. A pornochanchada como código que O Agente Secreto reativa 57 anos depois — o corpo, o erotismo, o humor no lugar errado, a estranheza como linguagem política. O que Cannes lê como audácia autoral, o brasileiro reconhece como língua materna. Sganzerla inventou o idioma. Kleber o fala com sotaque do século XXI.",
+      "citacao_fonte": "A linhagem subterrânea do cinema brasileiro"
+    },
+    {
+      "tipo": "fechamento",
+      "frase": "A censura não temia o que não compreendia. Esse foi o erro dela — e a arma dele.",
+      "handle": "@cinecriticabr"
+    }
+  ],
+  "legenda": "Um filme de 1968 que parece feito em 2026. Se isso incomoda, é porque o Brasil mudou menos do que gosta de acreditar.\n\nSganzerla tinha 22 anos. Três semanas de filmagem. Boca do Lixo. Com isso, fez o filme mais perigoso da ditadura — perigoso justamente porque ninguém levou a sério.\n\nA pornochanchada política: o corpo na tela como cortina de fumaça. O erótico como cavalo de Troia. O lixo como gramática calculada. Tudo o que a censura classificava como inofensivo era exatamente o que passava. A ditadura censurava a seriedade — e o Bandido era sério demais para parecer sério.\n\nDe Sganzerla a Kleber Mendonça Filho, a linhagem subterrânea do cinema brasileiro permanece viva. O Agente Secreto fala a mesma língua, 57 anos depois.\n\nDesliza.\n\n#cinemabrasileiro #obandidodaluzvermelha #rogeriosganzerla #cinemamarginal #bocadolixo #cinecriticabr",
+  "hashtags": ["#cinemabrasileiro", "#obandidodaluzvermelha", "#rogeriosganzerla", "#cinemamarginal", "#bocadolixo", "#cinecriticabr"]
+}
