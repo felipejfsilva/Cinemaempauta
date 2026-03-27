@@ -1,0 +1,57 @@
+{
+  "filme": "Cidade de Deus",
+  "ano": 2002,
+  "diretor": "Fernando Meirelles e Kátia Lund",
+  "template": "carrossel",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo_filme": "Cidade de Deus",
+      "ano": "2002",
+      "subtitulo": "Fernando Meirelles e Kátia Lund",
+      "hook": "O filme que ensinou o mundo a olhar para a favela. A pergunta que ninguém fez na época: a troco de quê? Vinte e poucos anos depois, toda imagem de periferia no cinema brasileiro carrega o DNA de Meirelles — inclusive as que tentam se libertar dele."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "02",
+      "corpo": "A revolução técnica foi real. Montagem acelerada, câmera na mão com nervosismo calculado, narração em primeira pessoa, fotografia estourada que transformou sol em violência. Meirelles e Kátia Lund criaram uma linguagem que o cinema mundial copiou — de Danny Boyle a séries da Netflix. O problema é que, quando a estética da violência vira estilo replicável, a violência deixa de ser assunto e vira ambientação.",
+      "destaque": "O que era denúncia em 2002 virou cenografia em 2010."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "03",
+      "corpo": "O elenco veio da Cidade de Deus real. Não-atores, adolescentes, corpos que carregavam na pele a história que o roteiro adaptava de Paulo Lins. A potência era inegável: pela primeira vez, a favela se representava com seus próprios rostos no circuito comercial. Mas representação tem custo. Dos jovens que fizeram o filme, quantos seguiram carreira? A indústria abriu a porta da favela para filmar, recolheu o material e fechou.",
+      "destaque": "Quem lucra quando a pobreza vira produto cultural?"
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "04",
+      "corpo": "Buscapé sobrevive porque fotografa em vez de atirar. O personagem que documenta a violência sem participar dela é a metáfora que o filme oferece sobre si mesmo — e que não se resolve. A câmera fotográfica de Buscapé é a câmera de Meirelles: um instrumento de sobrevivência individual que transforma tragédia coletiva em imagem vendável. A honestidade parcial de Cidade de Deus é o que o torna fascinante e insuficiente ao mesmo tempo.",
+      "destaque": "Um espelho que mostra tudo, menos a mão que o segura."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "05",
+      "corpo": "Quatro indicações ao Oscar em 2004. Nenhuma vitória. O Brasil quase entrou pela porta da frente de Hollywood com um filme sobre a porta dos fundos do próprio país. O mercado internacional que celebra a violência periférica como autenticidade é o mesmo que precisa dessa violência domesticada em formato consumível. Cidade de Deus oferecia exatamente o que Hollywood já sabia processar — e talvez por isso a barreira não tenha caído ali.",
+      "destaque": "O Brasil que o mundo queria ver: perigoso, fotogênico, consumível."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "06",
+      "corpo": "De Tropa de Elite a Sintonia, toda produção brasileira sobre periferia depois de 2002 existe em diálogo com Cidade de Deus. Quando cineastas como Adirley Queirós ou Yasmin Thayná filmam a periferia com outra gramática — mais lenta, mais opaca, menos explicativa — estão respondendo a Meirelles tanto quanto os que o imitam. O filme que abriu a porta também definiu o enquadramento. Tudo que veio depois é continuação ou correção.",
+      "destaque": "Cidade de Deus é o ponto zero do cinema periférico brasileiro."
+    },
+    {
+      "tipo": "citacao",
+      "citacao_texto": "A Cidade de Deus real em 2026. O conjunto habitacional que virou território, que virou romance, que virou filme, que virou marca global — e que continua sem saneamento completo. O filme mais visto sobre a favela brasileira não mudou a favela brasileira. Mudou o cinema. E a diferença entre uma coisa e outra é o limite que o filme expõe sem perceber.",
+      "citacao_fonte": "@cinecriticabr"
+    },
+    {
+      "tipo": "fechamento",
+      "frase": "Cidade de Deus ensinou o mundo a olhar para a favela brasileira. Vinte anos depois, a pergunta continua a mesma: quem assiste, quem lucra e quem fica quando a luz se apaga.",
+      "handle": "@cinecriticabr"
+    }
+  ],
+  "legenda": "O filme que o mundo inteiro viu para entender o Brasil. A pergunta é se o Brasil se reconheceu ou se apenas aceitou ser visto assim.\n\nCidade de Deus criou a gramática de como se filma a pobreza no cinema brasileiro. Montagem nervosa, câmera na mão, corpos reais. Vinte e poucos anos depois, essa gramática virou padrão — e o padrão virou armadilha. Quando a estética da violência vira estilo, a violência vira cenografia.\n\nA favela continua lá. A câmera continua filmando. Quem lucra?\n\nDesliza.\n\n#cinemabrasileiro #cidadededeus #cinecriticabr",
+  "hashtags": ["#cinemabrasileiro", "#cidadededeus", "#cinecriticabr"]
+}

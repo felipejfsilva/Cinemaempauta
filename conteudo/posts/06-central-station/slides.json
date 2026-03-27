@@ -1,0 +1,57 @@
+{
+  "filme": "Central do Brasil",
+  "ano": 1998,
+  "diretor": "Walter Salles",
+  "template": "carrossel",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo_filme": "Central do Brasil",
+      "ano": "1998",
+      "subtitulo": "Walter Salles",
+      "hook": "Em 1998, Fernanda Montenegro quase ganhou o Oscar. Em 2025, Fernanda Torres quase ganhou o Oscar. Entre mãe e filha, vinte e seis anos. Entre os dois filmes, o mesmo diretor, a mesma ferida, o mesmo país pedindo para ser visto."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "02",
+      "corpo": "Central do Brasil é um road movie que finge ser sobre encontrar um pai e é sobre encontrar um país. Dora escreve cartas para analfabetos na estação Central — uma mulher que vende palavras alheias sem acreditar em nenhuma. Quando Josué aparece, órfão e sem destino, Dora não o acolhe por bondade. O filme precisa que ela se mova — e o Brasil precisa que alguém vá ao Nordeste buscar o que o Sudeste esqueceu.",
+      "destaque": "A estrada não é cenário. É método."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "03",
+      "corpo": "A viagem do Rio ao sertão nordestino é a descida ao Brasil que a classe média urbana evita. Josué procura o pai que nunca conheceu. Dora reencontra algo que abandonou. Walter Salles transformou a busca por um homem ausente na busca por um país que não se reconhece. O pai de Josué é o Brasil que prometeu voltar e não voltou. A carta que nunca chega é a política pública que nunca chega.",
+      "destaque": "A metáfora se sente na estrada, na poeira, no rosto de Vinícius de Oliveira."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "04",
+      "corpo": "A cena da carta final é o coração do filme. Dora, que passou a vida escrevendo palavras de outros, escreve pela primeira vez para si mesma — para Josué, mas para si mesma. A mulher que vendia sentimentos alheios por um real encontra os próprios. O momento em que o filme deixa de ser estrada e vira espelho. Fernanda Montenegro chora, e o choro não é performance — é o filme inteiro condensado em um rosto.",
+      "destaque": "O Brasil escrevendo uma carta para si mesmo, sem saber se vai chegar."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "05",
+      "corpo": "Oscar 1999. Fernanda Montenegro, indicada a Melhor Atriz — a primeira brasileira na história. Perdeu para Gwyneth Paltrow em Shakespeare Apaixonado, fruto de campanha de Weinstein mais do que de mérito. O que essa derrota fez ao Brasil foi definir um lugar: perto o suficiente para ser visto, longe o suficiente para não vencer. A quase-vitória como identidade permanente. O país saiu de Los Angeles com a certeza de que pertencia àquele palco e a evidência de que o palco não o queria.",
+      "destaque": "Perto o suficiente para ser visto, longe o suficiente para não vencer."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "06",
+      "corpo": "Vinte e seis anos depois, Fernanda Torres sobe ao mesmo palco, pelo mesmo cinema, pelo mesmo diretor. Ainda Estou Aqui é o espelho tardio de Central do Brasil — dois filmes sobre ausência, duas mulheres que precisam atravessar o país para se encontrarem, duas Fernandas carregando a mesma herança. A linhagem mãe-filha não é coincidência biográfica — é a genealogia do cinema brasileiro tentando ser reconhecido.",
+      "destaque": "A barreira se move, mas nunca desaparece por completo."
+    },
+    {
+      "tipo": "citacao",
+      "citacao_texto": "Walter Salles levou um quarto de século entre Central do Brasil e Ainda Estou Aqui. Dois filmes sobre ausência — a do pai, a do marido, a do país que não se resolveu. Em 1998, a ferida era o abandono. Em 2025, a impunidade. Salles não repetiu o filme. Repetiu o diagnóstico. E a repetição confirma: o Brasil não resolveu o que Central do Brasil já mostrava.",
+      "citacao_fonte": "@cinecriticabr"
+    },
+    {
+      "tipo": "fechamento",
+      "frase": "Mãe e filha. Mesmo palco. Mesmo diretor. Mesmo país precisando se ver na tela para acreditar que existe. A diferença entre 1998 e 2025 não é que o Brasil mudou — é que aprendeu a chorar pela vitória com a mesma intensidade com que chorava pela derrota.",
+      "handle": "@cinecriticabr"
+    }
+  ],
+  "legenda": "Em 1998, Fernanda Montenegro perdeu o Oscar. Em 2025, Fernanda Torres não ganhou o Oscar de atriz — mas o filme de Walter Salles venceu. Mãe e filha, mesmo palco, mesmo diretor, mesmo país.\n\nCentral do Brasil é o filme que definiu o lugar do Brasil em Hollywood: perto o suficiente para ser visto, longe o suficiente para não vencer. Vinte e seis anos depois, Ainda Estou Aqui moveu a barreira — mas não a derrubou.\n\nA genealogia de uma nação que precisa se ver na tela para acreditar que existe.\n\nDesliza.\n\n#cinemabrasileiro #centraldobrasil #cinecriticabr",
+  "hashtags": ["#cinemabrasileiro", "#centraldobrasil", "#cinecriticabr"]
+}
