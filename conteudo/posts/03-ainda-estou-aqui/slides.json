@@ -1,0 +1,50 @@
+{
+  "filme": "Ainda Estou Aqui",
+  "ano": "2024",
+  "template": "carrossel",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo_filme": "Ainda Estou Aqui",
+      "ano": "2024",
+      "hook": "Todo mundo saiu do cinema com os olhos vermelhos. Isso é fato. O que é mais interessante é que, quando você perguntava o que tinha acontecido, a resposta era sempre vaga. \"É muito bonito.\" \"Dá um nó.\" Ninguém conseguia nomear exatamente o quê."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "02/08",
+      "corpo": "Ainda Estou Aqui não funciona porque é um drama sobre a ditadura. Funciona porque é um filme sobre o que uma sociedade faz com uma dor que nunca foi oficialmente reconhecida.\n\nEunice Paiva perdeu o marido em janeiro de 1971 — levado por seis homens, sem mandado, sem explicação, sem retorno. Passou décadas fazendo a pergunta mais simples do mundo: o que aconteceu? A ditadura nunca respondeu.",
+      "destaque": "O filme termina. O Brasil segue. E o nó permanece."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "03/08",
+      "corpo": "Walter Salles levou sete anos para construir isso. E a decisão mais precisa do roteiro é a que parece mais simples: não mostrar a tortura. Não reconstituir o porão. Deixar o horror fora de quadro — exatamente como a ditadura fez na vida real.\n\nO que você vê é Eunice. O que você sente é a ausência de Rubens. E a ausência é infinitamente mais devastadora, porque ausência é o que o Estado produziu como política deliberada."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "04/08",
+      "corpo": "Eunice morreu em 2018, após quinze anos com Alzheimer. A mulher que passou décadas lutando para que o Estado não apagasse a memória do marido perdeu, ao final, a própria memória.\n\nO esquecimento que os militares não conseguiram impor pela força, a biologia entregou.",
+      "destaque": "O título — Ainda Estou Aqui — que você entra achando que é declaração de resistência, sai entendendo que é também pergunta: por quanto tempo?"
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "05/08",
+      "corpo": "Não é a cena da prisão. Não é a performance de Fernanda Torres, extraordinária como ela é. É o fato de que o filme não oferece a catarse do vilão punido. Não há resolução. Há impunidade real dentro de ficção real dentro de uma sala de cinema — e o corpo do espectador brasileiro reconhece isso antes que o cérebro encontre palavras.\n\nNo Brasil, as contas nunca são abertas, os responsáveis raramente respondem, e a vida segue com aquele nó que ninguém consegue nomear."
+    },
+    {
+      "tipo": "conteudo",
+      "numero": "06/08",
+      "corpo": "Fernanda Torres venceu o Globo de Ouro — 26 anos depois de Fernanda Montenegro ter sido indicada ao Oscar pelo mesmo cinema sem levar. Mãe e filha, separadas por um quarto de século, pela mesma necessidade de uma nação de se ver na tela.\n\nNo Oscar de 2025, o Brasil venceu Melhor Filme Internacional pela primeira vez. A barreira caiu por causa de uma dona de casa do Rio de Janeiro que decidiu não desaparecer junto com o marido."
+    },
+    {
+      "tipo": "citacao",
+      "citacao": "No carnaval que coincidia com o Oscar, pessoas desfilavam com máscaras de Fernanda Torres. A festa coletiva que o Brasil historicamente usa para não lembrar celebrando, dessa vez, um filme sobre a obrigação de lembrar. O país raramente produz ironia tão perfeita sem querer."
+    },
+    {
+      "tipo": "fechamento",
+      "frase": "O nó que o espectador não conseguia nomear tem nome. Chama-se impunidade. Chama-se memória sem tribunal. Chama-se país que sabe o que foi feito e aprendeu a viver com isso sem resolver.\n\nAinda Estou Aqui não ensina isso — revela. E a diferença entre ensinar e revelar é exatamente o que separa um bom filme de um necessário."
+    }
+  ],
+  "legenda": "Todo mundo saiu do cinema com os olhos vermelhos. Ninguém conseguia nomear exatamente o quê.\n\nEssa incapacidade de nomear não é falha do espectador — é o centro do filme.\n\nAinda Estou Aqui não é um drama sobre a ditadura. É um filme sobre o que uma sociedade faz com uma dor que nunca foi oficialmente reconhecida. Eunice Paiva passou décadas fazendo a pergunta mais simples do mundo: o que aconteceu? A ditadura nunca respondeu. Os responsáveis continuam impunes até hoje.\n\nO nó tem nome. Chama-se impunidade.\n\nDesliza.\n\n#cinemabrasileiro #aindaestouaqui #fernandatorres #waltersalles #oscar2025 #cinecriticabr",
+  "hashtags": ["#cinemabrasileiro", "#aindaestouaqui", "#fernandatorres", "#waltersalles", "#oscar2025", "#cinecriticabr"]
+}
