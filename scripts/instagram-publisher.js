@@ -31,7 +31,8 @@ const http = require('http');
 // ---------------------------------------------------------------------------
 // Config
 // ---------------------------------------------------------------------------
-const ENV_PATH = path.resolve(__dirname, '..', '.env');
+const ROOT = path.resolve(__dirname, '..');
+const ENV_PATH = path.join(ROOT, '.env');
 
 function loadEnv() {
   if (!fs.existsSync(ENV_PATH)) return {};
@@ -147,6 +148,14 @@ function stopLocalServer() {
 async function getPublicImageUrl(postDir, filename) {
   const IMGBB_KEY = process.env.IMGBB_API_KEY || env.IMGBB_API_KEY;
   const PUBLIC_URL = process.env.PUBLIC_URL || env.PUBLIC_URL;
+  const GITHUB_RAW = process.env.GITHUB_RAW_BASE || env.GITHUB_RAW_BASE;
+
+  // Priority 1: GitHub raw URLs (most reliable, images already committed)
+  if (GITHUB_RAW) {
+    // postDir is relative like "conteudo/posts/01-super-xuxa"
+    const relativePath = path.relative(ROOT || process.cwd(), path.resolve(postDir, filename));
+    return `${GITHUB_RAW}/${relativePath}`;
+  }
 
   if (IMGBB_KEY) {
     // Upload to imgbb (free image hosting)
@@ -190,11 +199,7 @@ async function getPublicImageUrl(postDir, filename) {
     return `${PUBLIC_URL}/${filename}`;
   }
 
-  // Fallback: use GitHub raw URL if images are committed
-  const GITHUB_RAW = process.env.GITHUB_RAW_BASE || env.GITHUB_RAW_BASE;
-  if (GITHUB_RAW) {
-    return `${GITHUB_RAW}/${filename}`;
-  }
+  // Fallback: use GitHub raw URL if images are committed (handled above)
 
   throw new Error(
     'Nenhum método de hospedagem de imagens configurado.\n' +
