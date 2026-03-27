@@ -71,7 +71,8 @@ async function main() {
   // Share a single browser across all slides for speed
   const browser = await puppeteer.launch({
     headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/root/.cache/ms-playwright/chromium-1194/chrome-linux/chrome',
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu'],
   });
 
   try {

@@ -11,32 +11,68 @@ const Mustache = require('mustache');
 const { paths } = require('./config');
 
 /**
- * Convert relative href/src references in HTML to absolute file:// URLs
- * based on the directory that contains the template file.
+ * Inline all <link rel="stylesheet"> tags by replacing them with <style>
+ * blocks containing the actual CSS content. This is necessary because
+ * Puppeteer's setContent() uses about:blank as base URL, so relative
+ * file:// links don't resolve.
  *
- * Handles:
- *   href="..."  /  src="..."
- *   url('...')   inside inline CSS or <style> blocks
+ * Also resolves url() references inside the inlined CSS to absolute paths.
+ */
+function inlineStylesheets(html, templateDir) {
+  return html.replace(
+    /<link\s+rel=["']stylesheet["']\s+href=["']([^"']+)["']\s*\/?>/gi,
+    (match, href) => {
+      // Skip external URLs
+      if (/^https?:\/\//.test(href)) return match;
+
+      const cssPath = path.resolve(templateDir, href);
+      if (!fs.existsSync(cssPath)) {
+        console.warn(`CSS file not found, skipping: ${cssPath}`);
+        return '';
+      }
+      let css = fs.readFileSync(cssPath, 'utf-8');
+      const cssDir = path.dirname(cssPath);
+
+      // Remove @import url('https://...') lines (no network in Puppeteer)
+      css = css.replace(/@import\s+url\([^)]+\)\s*;/g, '');
+
+      // Resolve url() references inside the CSS to absolute file:// paths
+      css = css.replace(
+        /url\(["']?(?!https?:\/\/|data:|#)([^"')]+)["']?\)/g,
+        (m, relPath) => {
+          const absPath = path.resolve(cssDir, relPath);
+          return `url("file://${absPath}")`;
+        }
+      );
+
+      // Recursively inline any @import for local CSS files
+      css = css.replace(
+        /@import\s+["']([^"']+)["']\s*;/g,
+        (m, importPath) => {
+          const importAbsPath = path.resolve(cssDir, importPath);
+          if (fs.existsSync(importAbsPath)) {
+            return fs.readFileSync(importAbsPath, 'utf-8');
+          }
+          return '';
+        }
+      );
+
+      return `<style>\n${css}\n</style>`;
+    }
+  );
+}
+
+/**
+ * Convert remaining relative src="..." references to absolute file:// URLs.
  */
 function resolveRelativePaths(html, templateDir) {
-  // Resolve href="..." and src="..." attributes
   html = html.replace(
-    /(href|src)=["'](?!https?:\/\/|data:|#)([^"']+)["']/g,
-    (match, attr, relPath) => {
-      const absPath = path.resolve(templateDir, relPath);
-      return `${attr}="file://${absPath}"`;
-    }
-  );
-
-  // Resolve url('...') references (CSS @font-face, background-image, etc.)
-  html = html.replace(
-    /url\(["']?(?!https?:\/\/|data:)([^"')]+)["']?\)/g,
+    /src=["'](?!https?:\/\/|data:|file:\/\/|#)([^"']+)["']/g,
     (match, relPath) => {
       const absPath = path.resolve(templateDir, relPath);
-      return `url("file://${absPath}")`;
+      return `src="file://${absPath}"`;
     }
   );
-
   return html;
 }
 
@@ -97,8 +133,10 @@ function loadTemplate(templatePath, data, slideIndex) {
   // --- Render ---
   const rendered = Mustache.render(rawHtml, viewData || {});
 
-  // --- Make all relative paths absolute so Puppeteer can find them ---
-  return resolveRelativePaths(rendered, templateDir);
+  // --- Inline CSS <link> tags and resolve remaining paths ---
+  let result = inlineStylesheets(rendered, templateDir);
+  result = resolveRelativePaths(result, templateDir);
+  return result;
 }
 
 module.exports = { loadTemplate };

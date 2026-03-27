@@ -1,18 +1,11 @@
 /* CineCrítica BR — Design Tokens */
 
-/* Fontes via Google Fonts API — compatível com Puppeteer */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Barlow+Condensed:wght@400;600&display=swap');
-
-/*
-  Para uso offline/self-hosted: baixar os .woff2 para ./fonts/ e descomentar os @font-face abaixo.
-  Remover o @import acima ao usar self-hosted.
-
-  @font-face { font-family: 'Playfair Display'; font-weight: 400; src: url('./fonts/playfair-display-regular.woff2') format('woff2'); }
-  @font-face { font-family: 'Playfair Display'; font-weight: 700; src: url('./fonts/playfair-display-bold.woff2') format('woff2'); }
-  @font-face { font-family: 'Playfair Display'; font-weight: 400; font-style: italic; src: url('./fonts/playfair-display-italic.woff2') format('woff2'); }
-  @font-face { font-family: 'Barlow Condensed'; font-weight: 400; src: url('./fonts/barlow-condensed-regular.woff2') format('woff2'); }
-  @font-face { font-family: 'Barlow Condensed'; font-weight: 600; src: url('./fonts/barlow-condensed-semibold.woff2') format('woff2'); }
-*/
+/* Fontes self-hosted (.woff2) */
+@font-face { font-family: 'Playfair Display'; font-weight: 400; font-style: normal; src: url('./fonts/playfair-display-regular.woff2') format('woff2'); }
+@font-face { font-family: 'Playfair Display'; font-weight: 700; font-style: normal; src: url('./fonts/playfair-display-bold.woff2') format('woff2'); }
+@font-face { font-family: 'Playfair Display'; font-weight: 400; font-style: italic; src: url('./fonts/playfair-display-italic.woff2') format('woff2'); }
+@font-face { font-family: 'Barlow Condensed'; font-weight: 400; font-style: normal; src: url('./fonts/barlow-condensed-regular.woff2') format('woff2'); }
+@font-face { font-family: 'Barlow Condensed'; font-weight: 600; font-style: normal; src: url('./fonts/barlow-condensed-semibold.woff2') format('woff2'); }
 
 :root {
   --preto: #000000;
